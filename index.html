@@ -7,7 +7,25 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div id="--app-app-container">
+        <label id="--app-mode-switch-label" class="--app-switch">
+          <input id="--app-mode-checkbox" type="checkbox">
+          <span id="--app-mode-span" class="slider round"></span>
+        </label>
+        <span id="slider-text">Light</span>
+        <div id="--app-content-container">
+          <h1 id="--content-title-first" class="white-text">Generate a</h1>
+          <h1 id="--content-title-second" class="light-seafoam-text">random password</h1>
+          <p id="--content-tagline-text">Never use an insecure password again.</p>
+          <button>Generate passwords</button>
+          <form action="">
+            <input type="text">
+            <input type="text">
+          </form>
+        </div>
+      </div>
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
