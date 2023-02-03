@@ -14,14 +14,20 @@
           <span id="--app-mode-span" class="slider round"></span>
         </label>
         <span id="slider-text">Light</span>
-        <div id="--app-content-container">
-          <h1 id="--content-title-first" class="white-text">Generate a</h1>
+        <div id="--app-content-container" class="content-background-light">
+          <h1 id="--content-title-first" class="title-text-light">Generate a</h1>
           <h1 id="--content-title-second" class="light-seafoam-text">random password</h1>
-          <p id="--content-tagline-text">Never use an insecure password again.</p>
-          <button>Generate passwords</button>
-          <form action="">
-            <input type="text">
-            <input type="text">
+          <p id="--content-tagline-text" class="tagline-text-light">Never use an insecure password again.</p>
+          <button id="--content-btn">Generate passwords</button>
+          <form id="--form-password-container" action="">
+            <input  id="passwordGen1" class="--form-password-input input-light" type="text">
+            <input  id="passwordGen2" class="--form-password-input input-light" type="text">
+            <label for="quantity">Password Length:</label>
+            <input type="number" id="--form-quantity" name="quantity" min="8" max="16">
+            <label id="--form-numbers-label" for="numbers">Numbers</label>
+            <input type="checkbox" id="--form-numbers" name="numbers" value="numbers">
+            <label id="--form-symbols-label" for="symbols">Symbols</label>
+            <input type="checkbox" id="--form-symbols" name="symbols" value="symbols">
           </form>
         </div>
       </div>
